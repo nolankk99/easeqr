@@ -44,10 +44,9 @@ export const metadata: Metadata = {
     images: [{ url: "/og-image.png" }]
   },
   verification: {
-    google: "google5e54b9135fd78760",
     other: {
-      "naver": "naverb0082d0a40b6d4e5c10c12874b1ffbbc",
-      "verification": "320fb29340e4a11c"
+      "naver": "navere0d6ad62d7883136aa84e257b8ac60a0",
+      "verification": "984d3c620cc084b9"
     }
   }
 };
@@ -65,9 +64,8 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="EaseQR" />
-        <meta name="google-site-verification" content="google5e54b9135fd78760" />
-        <meta name="naver-site-verification" content="naverb0082d0a40b6d4e5c10c12874b1ffbbc" />
-        <meta name="verification" content="320fb29340e4a11c" />
+        <meta name="naver-site-verification" content="navere0d6ad62d7883136aa84e257b8ac60a0" />
+        <meta name="verification" content="984d3c620cc084b9" />
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
