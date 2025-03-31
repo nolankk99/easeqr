@@ -1,0 +1,137 @@
+{
+  "common": {
+    "title": "EaseQR",
+    "description": "Convierte fácilmente URLs, contactos, WiFi y más información en códigos QR.",
+    "subtitle": "Crea tus propios códigos QR con inserción de logotipos y personalización de colores."
+  },
+  "nav": {
+    "home": "Inicio",
+    "history": "Historial",
+    "about": "Acerca de"
+  },
+  "generator": {
+    "title": "Generador de Códigos QR",
+    "description": "Convierte URLs, contactos, WiFi y más en códigos QR",
+    "tabs": {
+      "generate": "Generar",
+      "customize": "Personalizar"
+    },
+    "dataType": {
+      "url": "URL",
+      "contact": "Contacto",
+      "wifi": "WiFi",
+      "email": "Correo",
+      "sms": "SMS",
+      "text": "Texto"
+    },
+    "placeholder": {
+      "url": "https://example.com",
+      "name": "Juan Pérez",
+      "phone": "+34 123-456-789",
+      "email": "ejemplo@ejemplo.com",
+      "ssid": "Nombre WiFi",
+      "password": "Contraseña WiFi",
+      "subject": "Asunto del Correo",
+      "body": "Contenido del Correo",
+      "message": "Contenido del SMS",
+      "text": "Texto Libre"
+    },
+    "labels": {
+      "url": "URL del Sitio Web",
+      "name": "Nombre",
+      "phone": "Número de Teléfono",
+      "email": "Correo Electrónico",
+      "ssid": "Nombre de Red (SSID)",
+      "password": "Contraseña",
+      "encryption": "Tipo de Encriptación",
+      "hiddenNetwork": "Red Oculta",
+      "emailAddress": "Dirección de Correo",
+      "subject": "Asunto (Opcional)",
+      "body": "Contenido (Opcional)",
+      "smsNumber": "Número de Teléfono",
+      "smsMessage": "Mensaje (Opcional)",
+      "text": "Texto Plano",
+      "qrSize": "Tamaño del Código QR",
+      "bgColor": "Color de Fondo",
+      "fgColor": "Color del Código QR",
+      "logo": "Añadir Logotipo",
+      "logoSize": "Tamaño del Logotipo",
+      "preview": "Vista Previa",
+      "currentData": "Datos Actuales"
+    },
+    "help": {
+      "url": "Escanea el código QR para ir directamente a esta URL.",
+      "contact": "Escanea el código QR para guardar automáticamente este contacto.",
+      "wifi": "Escanea el código QR para conectarte automáticamente a esta WiFi.",
+      "email": "Escanea el código QR para abrir la pantalla de composición de correo.",
+      "sms": "Escanea el código QR para abrir la pantalla de composición de SMS.",
+      "text": "Escanea el código QR para mostrar el texto que has introducido."
+    },
+    "buttons": {
+      "clear": "Limpiar",
+      "upload": "Subir Logotipo",
+      "remove": "Eliminar",
+      "download": "Descargar Código QR",
+      "share": "Compartir URL",
+      "reset": "Restablecer"
+    },
+    "preview": {
+      "empty": "Introduce datos para mostrar el código QR aquí",
+      "emptyPreview": "Introduce datos para mostrar la vista previa",
+      "enterDataFirst": "Introduce datos en la pestaña Generar primero"
+    },
+    "errors": {
+      "fileSize": "Límite de Tamaño de Archivo",
+      "fileSizeDesc": "La imagen del logotipo debe ser menor de 2MB.",
+      "fileType": "Tipo de Archivo No Soportado",
+      "fileTypeDesc": "Solo se admiten archivos de imagen (.jpg, .png, .gif, etc.).",
+      "urlRequired": "Por favor, introduce una URL",
+      "urlRequiredDesc": "Introduce una URL para generar un código QR",
+      "lowContrast": "El contraste de color del código QR es demasiado bajo",
+      "lowContrastDesc": "Es posible que el código QR no sea escaneable. Por favor, ajusta los colores.",
+      "downloadFailed": "Fallo en la Descarga del Código QR",
+      "downloadFailedDesc": "Ocurrió un error al generar el código QR",
+      "shareFailed": "Fallo al Compartir URL",
+      "shareFailedDesc": "No hay permiso de acceso al portapapeles o ocurrió un error"
+    },
+    "success": {
+      "logoUploaded": "Carga de Logotipo Completa",
+      "logoUploadedDesc": "El logotipo se ha aplicado al código QR.",
+      "logoRemoved": "Eliminación de Logotipo Completa",
+      "logoRemovedDesc": "El logotipo se ha eliminado del código QR.",
+      "settingsReset": "Configuración Restablecida",
+      "settingsResetDesc": "La configuración del código QR se ha restablecido a los valores predeterminados",
+      "urlCopied": "URL copiada al portapapeles"
+    },
+    "warnings": {
+      "lowContrast": "Advertencia: El bajo contraste de color del QR puede ser difícil de reconocer en algunos escáneres.",
+      "veryLowContrast": "Crítico: El contraste de color del QR es demasiado bajo, ¡el escaneo puede ser imposible!"
+    },
+    "encryption": {
+      "wpa": "WPA/WPA2",
+      "wep": "WEP",
+      "nopass": "Sin Encriptación"
+    }
+  },
+  "history": {
+    "title": "Historial",
+    "empty": "Aún no se han generado códigos QR. Los códigos QR aparecerán aquí después de generarlos, descargarlos o compartirlos.",
+    "clear": "Borrar Todo",
+    "confirm": "¿Estás seguro de que quieres borrar todo el historial?"
+  },
+  "about": {
+    "title": "Acerca de los Códigos QR",
+    "content": "Un código QR (código de Respuesta Rápida) es un código de barras matricial bidimensional que puede almacenar información. Fue desarrollado por Denso Wave en Japón en 1994 y ahora se utiliza en varios campos. Puede almacenar varios datos como URLs, información de contacto y detalles de WiFi.",
+    "appDescription": "EaseQR es una herramienta simple para convertir URLs en códigos QR. Los códigos QR generados pueden ser escaneados con la cámara de un smartphone para acceder a sitios web directamente, haciéndolos útiles para tarjetas de visita, carteles, embalajes de productos y más."
+  },
+  "footer": {
+    "copyright": "© 2025 EaseQR. Todos los derechos reservados."
+  },
+  "lang": {
+    "ko": "Coreano",
+    "en": "Inglés",
+    "ja": "Japonés",
+    "zh": "Chino",
+    "es": "Español"
+  }
+} 

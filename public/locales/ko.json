@@ -1,0 +1,190 @@
+{
+  "common": {
+    "title": "EaseQR",
+    "description": "URL, 연락처, WiFi 등 다양한 정보를 손쉽게 QR 코드로 변환할 수 있습니다.",
+    "subtitle": "또한, 로고 추가와 색상 커스터마이징을 통해 나만의 QR 코드를 만들 수 있습니다."
+  },
+  "nav": {
+    "home": "홈",
+    "history": "기록",
+    "about": "소개"
+  },
+  "generator": {
+    "title": "QR 코드 생성기",
+    "description": "URL, 연락처, WiFi 등 다양한 정보를 QR 코드로 변환하세요",
+    "tabs": {
+      "generate": "생성하기",
+      "customize": "커스텀"
+    },
+    "dataType": {
+      "url": "URL",
+      "contact": "연락처",
+      "wifi": "WiFi",
+      "email": "이메일",
+      "sms": "SMS",
+      "text": "텍스트"
+    },
+    "placeholder": {
+      "url": "https://example.com",
+      "name": "홍길동",
+      "phone": "+82 10-1234-5678",
+      "email": "example@example.com",
+      "ssid": "WiFi 이름",
+      "password": "WiFi 비밀번호",
+      "subject": "이메일 제목",
+      "body": "이메일 내용",
+      "message": "SMS 메시지 내용",
+      "text": "자유 텍스트 입력"
+    },
+    "labels": {
+      "url": "웹사이트 URL",
+      "name": "이름",
+      "phone": "전화번호",
+      "email": "이메일",
+      "ssid": "네트워크 이름 (SSID)",
+      "password": "비밀번호",
+      "encryption": "암호화 유형",
+      "hiddenNetwork": "숨겨진 네트워크",
+      "emailAddress": "이메일 주소",
+      "subject": "제목 (선택사항)",
+      "body": "내용 (선택사항)",
+      "smsNumber": "전화번호",
+      "smsMessage": "메시지 (선택사항)",
+      "text": "일반 텍스트",
+      "qrSize": "QR 코드 크기",
+      "bgColor": "배경색",
+      "fgColor": "QR 코드 색상",
+      "logo": "로고 추가",
+      "logoSize": "로고 크기",
+      "preview": "미리보기",
+      "currentData": "현재 데이터"
+    },
+    "help": {
+      "url": "QR 코드로 스캔하면 이 URL로 바로 이동합니다.",
+      "contact": "QR 코드로 스캔하면 연락처가 자동으로 저장됩니다.",
+      "wifi": "QR 코드로 스캔하면 WiFi에 자동으로 연결됩니다.",
+      "email": "QR 코드로 스캔하면 이메일 작성 화면이 열립니다.",
+      "sms": "QR 코드로 스캔하면 SMS 작성 화면이 열립니다.",
+      "text": "QR 코드로 스캔하면 입력한 텍스트가 표시됩니다."
+    },
+    "buttons": {
+      "clear": "초기화",
+      "upload": "로고 업로드",
+      "remove": "제거",
+      "download": "QR 코드 다운로드",
+      "share": "URL 공유하기",
+      "reset": "초기화"
+    },
+    "preview": {
+      "empty": "데이터를 입력하면 QR 코드가 여기에 표시됩니다",
+      "emptyPreview": "데이터를 입력하면 미리보기가 표시됩니다",
+      "enterDataFirst": "생성하기 탭에서 데이터를 입력해주세요"
+    },
+    "errors": {
+      "fileSize": "파일 크기 제한",
+      "fileSizeDesc": "로고 이미지는 2MB 이하여야 합니다.",
+      "fileType": "지원되지 않는 파일 형식",
+      "fileTypeDesc": "이미지 파일(.jpg, .png, .gif 등)만 업로드 가능합니다.",
+      "urlRequired": "URL을 입력해주세요",
+      "urlRequiredDesc": "QR 코드를 생성하려면 URL을 입력하세요",
+      "lowContrast": "QR 코드 색상 대비가 너무 낮습니다",
+      "lowContrastDesc": "QR 코드를 스캔하지 못할 수 있습니다. 색상을 조정해 주세요.",
+      "downloadFailed": "QR 코드 다운로드 실패",
+      "downloadFailedDesc": "QR 코드 생성 중 오류가 발생했습니다",
+      "shareFailed": "URL 공유 실패",
+      "shareFailedDesc": "클립보드 접근 권한이 없거나 오류가 발생했습니다"
+    },
+    "success": {
+      "logoUploaded": "로고 업로드 완료",
+      "logoUploadedDesc": "QR 코드에 로고가 적용되었습니다.",
+      "logoRemoved": "로고 제거 완료",
+      "logoRemovedDesc": "QR 코드에서 로고가 제거되었습니다.",
+      "settingsReset": "설정 초기화",
+      "settingsResetDesc": "QR 코드 설정이 기본값으로 초기화되었습니다",
+      "urlCopied": "URL이 클립보드에 복사되었습니다"
+    },
+    "warnings": {
+      "lowContrast": "주의: QR 색상 대비가 낮아 일부 스캐너에서 인식이 어려울 수 있습니다.",
+      "veryLowContrast": "심각: QR 색상 대비가 너무 낮아 스캔이 불가능할 수 있습니다!"
+    },
+    "encryption": {
+      "wpa": "WPA/WPA2",
+      "wep": "WEP",
+      "nopass": "암호화 없음"
+    }
+  },
+  "history": {
+    "title": "QR 코드 기록",
+    "description": "최근에 생성한 QR 코드 기록입니다.",
+    "empty": "기록이 없습니다",
+    "clear": "모두 삭제",
+    "itemsLeft": "더보기",
+    "collapse": "접기",
+    "loadSuccess": "히스토리에서 불러옴",
+    "loadDesc": "선택한 QR 코드를 에디터에 적용했습니다",
+    "copySuccess": "URL이 클립보드에 복사되었습니다",
+    "copyFail": "복사 실패",
+    "copyFailDesc": "클립보드 접근 권한이 없거나 오류가 발생했습니다"
+  },
+  "about": {
+    "title": "QR 코드 정보",
+    "content": "QR 코드(Quick Response code)는 정보를 저장할 수 있는 매트릭스 형태의 이차원 바코드입니다. 일본의 Denso Wave사에서 1994년에 개발되었으며, 오늘날 다양한 분야에서 활용되고 있습니다. URL, 연락처, WiFi 정보 등 다양한 데이터를 저장할 수 있습니다.",
+    "appDescription": "EaseQR은 URL을 QR 코드로 변환해주는 간편한 도구입니다. 생성된 QR 코드는 스마트폰 카메라로 스캔하여 바로 웹사이트에 접속할 수 있어, 명함, 포스터, 제품 포장 등 다양한 용도로 활용할 수 있습니다."
+  },
+  "footer": {
+    "copyright": "© {year} EaseQR. 모든 권리 보유."
+  },
+  "lang": {
+    "ko": "한국어",
+    "en": "영어",
+    "ja": "일본어",
+    "zh": "중국어",
+    "es": "스페인어"
+  },
+  "qr": {
+    "title": "QR 코드 생성기",
+    "description": "URL, 연락처, WiFi 등 다양한 정보를 QR 코드로 변환하세요.",
+    "generate": "생성",
+    "custom": "커스텀",
+    "url": "URL",
+    "placeholder": "URL을 입력하세요...",
+    "download": "다운로드",
+    "share": "공유하기",
+    "reset": "초기화",
+    "customize": {
+      "size": "크기",
+      "background": "배경색",
+      "foreground": "전경색",
+      "logo": "로고 추가",
+      "upload": "업로드",
+      "remove": "제거"
+    },
+    "warnings": {
+      "contrastLow": "주의: QR 색상 대비가 낮아 일부 스캐너에서 인식이 어려울 수 있습니다.",
+      "contrastVeryLow": "심각: QR 색상 대비가 너무 낮아 스캔이 불가능할 수 있습니다!",
+      "emptyUrl": "URL을 입력해주세요",
+      "invalidUrl": "유효한 URL을 입력해주세요",
+      "fileSizeLimit": "파일 크기 제한",
+      "logoSizeDesc": "로고 이미지는 2MB 이하여야 합니다.",
+      "unsupportedFile": "지원되지 않는 파일 형식",
+      "imageOnly": "이미지 파일(.jpg, .png, .gif 등)만 업로드 가능합니다.",
+      "logoUploadSuccess": "로고 업로드 완료",
+      "logoUploadDesc": "QR 코드에 로고가 적용되었습니다.",
+      "logoRemoveSuccess": "로고 제거 완료",
+      "logoRemoveDesc": "QR 코드에서 로고가 제거되었습니다.",
+      "resetSuccess": "설정 초기화",
+      "resetDesc": "QR 코드 설정이 기본값으로 초기화되었습니다"
+    }
+  },
+  "dataTypes": {
+    "url": "URL",
+    "text": "텍스트",
+    "email": "이메일",
+    "phone": "전화번호",
+    "sms": "SMS",
+    "wifi": "WiFi",
+    "location": "위치",
+    "event": "이벤트",
+    "contact": "연락처"
+  }
+} 

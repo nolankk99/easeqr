@@ -1,0 +1,137 @@
+{
+  "common": {
+    "title": "EaseQR",
+    "description": "轻松地将URL、联系人、WiFi等各种信息转换为二维码。",
+    "subtitle": "通过添加徽标和颜色定制，创建您自己的二维码。"
+  },
+  "nav": {
+    "home": "首页",
+    "history": "历史记录",
+    "about": "关于"
+  },
+  "generator": {
+    "title": "二维码生成器",
+    "description": "将URL、联系人、WiFi等转换为二维码",
+    "tabs": {
+      "generate": "生成",
+      "customize": "定制"
+    },
+    "dataType": {
+      "url": "网址",
+      "contact": "联系人",
+      "wifi": "WiFi",
+      "email": "电子邮件",
+      "sms": "短信",
+      "text": "文本"
+    },
+    "placeholder": {
+      "url": "https://example.com",
+      "name": "张三",
+      "phone": "+86 123-4567-8900",
+      "email": "example@example.com",
+      "ssid": "WiFi名称",
+      "password": "WiFi密码",
+      "subject": "邮件主题",
+      "body": "邮件内容",
+      "message": "短信内容",
+      "text": "自由文本输入"
+    },
+    "labels": {
+      "url": "网站网址",
+      "name": "姓名",
+      "phone": "电话号码",
+      "email": "电子邮件",
+      "ssid": "网络名称 (SSID)",
+      "password": "密码",
+      "encryption": "加密类型",
+      "hiddenNetwork": "隐藏网络",
+      "emailAddress": "电子邮件地址",
+      "subject": "主题 (可选)",
+      "body": "内容 (可选)",
+      "smsNumber": "电话号码",
+      "smsMessage": "信息 (可选)",
+      "text": "纯文本",
+      "qrSize": "二维码大小",
+      "bgColor": "背景颜色",
+      "fgColor": "二维码颜色",
+      "logo": "添加徽标",
+      "logoSize": "徽标大小",
+      "preview": "预览",
+      "currentData": "当前数据"
+    },
+    "help": {
+      "url": "扫描二维码直接访问此网址。",
+      "contact": "扫描二维码自动保存此联系人。",
+      "wifi": "扫描二维码自动连接WiFi。",
+      "email": "扫描二维码打开电子邮件编辑界面。",
+      "sms": "扫描二维码打开短信编辑界面。",
+      "text": "扫描二维码显示您输入的文本。"
+    },
+    "buttons": {
+      "clear": "清除",
+      "upload": "上传徽标",
+      "remove": "移除",
+      "download": "下载二维码",
+      "share": "分享网址",
+      "reset": "重置"
+    },
+    "preview": {
+      "empty": "输入数据以在此处显示二维码",
+      "emptyPreview": "输入数据以显示预览",
+      "enterDataFirst": "先在生成选项卡中输入数据"
+    },
+    "errors": {
+      "fileSize": "文件大小限制",
+      "fileSizeDesc": "徽标图片必须小于2MB。",
+      "fileType": "不支持的文件类型",
+      "fileTypeDesc": "仅支持图片文件（.jpg、.png、.gif等）。",
+      "urlRequired": "请输入网址",
+      "urlRequiredDesc": "输入网址以生成二维码",
+      "lowContrast": "二维码颜色对比度太低",
+      "lowContrastDesc": "二维码可能无法扫描。请调整颜色。",
+      "downloadFailed": "二维码下载失败",
+      "downloadFailedDesc": "生成二维码时发生错误",
+      "shareFailed": "网址分享失败",
+      "shareFailedDesc": "无剪贴板访问权限或发生错误"
+    },
+    "success": {
+      "logoUploaded": "徽标上传完成",
+      "logoUploadedDesc": "徽标已应用到二维码。",
+      "logoRemoved": "徽标移除完成",
+      "logoRemovedDesc": "徽标已从二维码中移除。",
+      "settingsReset": "设置重置",
+      "settingsResetDesc": "二维码设置已重置为默认值",
+      "urlCopied": "网址已复制到剪贴板"
+    },
+    "warnings": {
+      "lowContrast": "警告：低二维码颜色对比度可能在某些扫描器上难以识别。",
+      "veryLowContrast": "严重：二维码颜色对比度太低，可能无法扫描！"
+    },
+    "encryption": {
+      "wpa": "WPA/WPA2",
+      "wep": "WEP",
+      "nopass": "无加密"
+    }
+  },
+  "history": {
+    "title": "历史记录",
+    "empty": "尚未生成二维码。生成、下载或分享二维码后将在此处显示。",
+    "clear": "清除全部",
+    "confirm": "确定要清除所有历史记录吗？"
+  },
+  "about": {
+    "title": "关于二维码",
+    "content": "二维码（Quick Response code）是一种可以存储信息的二维矩阵条码。它由日本的Denso Wave公司于1994年开发，现在广泛应用于各个领域。它可以存储各种数据，如网址、联系人信息和WiFi详情。",
+    "appDescription": "EaseQR是一个将网址转换为二维码的简单工具。生成的二维码可以使用智能手机相机扫描直接访问网站，可用于名片、海报、产品包装等多种用途。"
+  },
+  "footer": {
+    "copyright": "© 2025 EaseQR. 保留所有权利。"
+  },
+  "lang": {
+    "ko": "韩语",
+    "en": "英语",
+    "ja": "日语",
+    "zh": "中文",
+    "es": "西班牙语"
+  }
+} 

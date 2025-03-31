@@ -1,0 +1,190 @@
+{
+  "common": {
+    "title": "EaseQR",
+    "description": "Easily convert various information like URLs, contacts, WiFi, and more into QR codes.",
+    "subtitle": "Create your own QR codes with logo insertion and color customization."
+  },
+  "nav": {
+    "home": "Home",
+    "history": "History",
+    "about": "About"
+  },
+  "generator": {
+    "title": "QR Code Generator",
+    "description": "Convert URLs, contacts, WiFi, and more into QR codes",
+    "tabs": {
+      "generate": "Generate",
+      "customize": "Customize"
+    },
+    "dataType": {
+      "url": "URL",
+      "contact": "Contact",
+      "wifi": "WiFi",
+      "email": "Email",
+      "sms": "SMS",
+      "text": "Text"
+    },
+    "placeholder": {
+      "url": "https://example.com",
+      "name": "John Doe",
+      "phone": "+1 234-567-8900",
+      "email": "example@example.com",
+      "ssid": "WiFi Name",
+      "password": "WiFi Password",
+      "subject": "Email Subject",
+      "body": "Email Body",
+      "message": "SMS Message Content",
+      "text": "Free Text Input"
+    },
+    "labels": {
+      "url": "Website URL",
+      "name": "Name",
+      "phone": "Phone Number",
+      "email": "Email",
+      "ssid": "Network Name (SSID)",
+      "password": "Password",
+      "encryption": "Encryption Type",
+      "hiddenNetwork": "Hidden Network",
+      "emailAddress": "Email Address",
+      "subject": "Subject (Optional)",
+      "body": "Body (Optional)",
+      "smsNumber": "Phone Number",
+      "smsMessage": "Message (Optional)",
+      "text": "Plain Text",
+      "qrSize": "QR Code Size",
+      "bgColor": "Background Color",
+      "fgColor": "QR Code Color",
+      "logo": "Add Logo",
+      "logoSize": "Logo Size",
+      "preview": "Preview",
+      "currentData": "Current Data"
+    },
+    "help": {
+      "url": "Scan the QR code to go directly to this URL.",
+      "contact": "Scan the QR code to automatically save this contact.",
+      "wifi": "Scan the QR code to automatically connect to this WiFi.",
+      "email": "Scan the QR code to open the email composition screen.",
+      "sms": "Scan the QR code to open the SMS composition screen.",
+      "text": "Scan the QR code to display the text you entered."
+    },
+    "buttons": {
+      "clear": "Clear",
+      "upload": "Upload Logo",
+      "remove": "Remove",
+      "download": "Download QR Code",
+      "share": "Share URL",
+      "reset": "Reset"
+    },
+    "preview": {
+      "empty": "Enter data to display the QR code here",
+      "emptyPreview": "Enter data to display the preview",
+      "enterDataFirst": "Enter data in the Generate tab first"
+    },
+    "errors": {
+      "fileSize": "File Size Limit",
+      "fileSizeDesc": "Logo image must be under 2MB.",
+      "fileType": "Unsupported File Type",
+      "fileTypeDesc": "Only image files (.jpg, .png, .gif, etc.) are supported.",
+      "urlRequired": "Please enter a URL",
+      "urlRequiredDesc": "Enter a URL to generate a QR code",
+      "lowContrast": "QR code color contrast is too low",
+      "lowContrastDesc": "The QR code may not be scannable. Please adjust the colors.",
+      "downloadFailed": "QR Code Download Failed",
+      "downloadFailedDesc": "An error occurred while generating the QR code",
+      "shareFailed": "URL Sharing Failed",
+      "shareFailedDesc": "No clipboard access permission or an error occurred"
+    },
+    "success": {
+      "logoUploaded": "Logo Upload Complete",
+      "logoUploadedDesc": "Logo has been applied to the QR code.",
+      "logoRemoved": "Logo Removal Complete",
+      "logoRemovedDesc": "Logo has been removed from the QR code.",
+      "settingsReset": "Settings Reset",
+      "settingsResetDesc": "QR code settings have been reset to defaults",
+      "urlCopied": "URL copied to clipboard"
+    },
+    "warnings": {
+      "lowContrast": "Warning: Low QR color contrast may be difficult to recognize on some scanners.",
+      "veryLowContrast": "Critical: QR color contrast is too low, scanning may be impossible!"
+    },
+    "encryption": {
+      "wpa": "WPA/WPA2",
+      "wep": "WEP",
+      "nopass": "No Encryption"
+    }
+  },
+  "history": {
+    "title": "QR Code History",
+    "description": "Your recently generated QR codes.",
+    "empty": "No history yet",
+    "clear": "Clear All",
+    "itemsLeft": "Show More",
+    "collapse": "Collapse",
+    "loadSuccess": "Loaded from History",
+    "loadDesc": "Applied selected QR code to the editor",
+    "copySuccess": "URL copied to clipboard",
+    "copyFail": "Copy Failed",
+    "copyFailDesc": "No clipboard access or an error occurred"
+  },
+  "about": {
+    "title": "About QR Codes",
+    "content": "A QR code (Quick Response code) is a two-dimensional matrix barcode that can store information. It was developed by Denso Wave in Japan in 1994 and is now used in various fields. It can store various data such as URLs, contact information, and WiFi details.",
+    "appDescription": "EaseQR is a simple tool for converting URLs into QR codes. Generated QR codes can be scanned with a smartphone camera to access websites directly, making them useful for business cards, posters, product packaging, and more."
+  },
+  "footer": {
+    "copyright": "© {year} EaseQR. All rights reserved."
+  },
+  "lang": {
+    "ko": "Korean",
+    "en": "English",
+    "ja": "Japanese",
+    "zh": "Chinese",
+    "es": "Spanish"
+  },
+  "qr": {
+    "title": "QR Code Generator",
+    "description": "Convert URLs, contacts, WiFi, and more into QR codes.",
+    "generate": "Generate",
+    "custom": "Custom",
+    "url": "URL",
+    "placeholder": "Enter URL...",
+    "download": "Download",
+    "share": "Share",
+    "reset": "Reset",
+    "customize": {
+      "size": "Size",
+      "background": "Background",
+      "foreground": "Foreground",
+      "logo": "Add Logo",
+      "upload": "Upload",
+      "remove": "Remove"
+    },
+    "warnings": {
+      "contrastLow": "Warning: Low QR color contrast may be difficult to scan with some readers.",
+      "contrastVeryLow": "Critical: QR color contrast is too low and may not be scannable!",
+      "emptyUrl": "Please enter a URL",
+      "invalidUrl": "Please enter a valid URL",
+      "fileSizeLimit": "File Size Limit",
+      "logoSizeDesc": "Logo image must be under 2MB.",
+      "unsupportedFile": "Unsupported File Type",
+      "imageOnly": "Only image files (.jpg, .png, .gif etc.) can be uploaded.",
+      "logoUploadSuccess": "Logo Upload Complete",
+      "logoUploadDesc": "Logo has been applied to the QR code.",
+      "logoRemoveSuccess": "Logo Removed",
+      "logoRemoveDesc": "Logo has been removed from the QR code.",
+      "resetSuccess": "Settings Reset",
+      "resetDesc": "QR code settings have been reset to default values"
+    }
+  },
+  "dataTypes": {
+    "url": "URL",
+    "text": "Text",
+    "email": "Email",
+    "phone": "Phone",
+    "sms": "SMS",
+    "wifi": "WiFi",
+    "location": "Location",
+    "event": "Event",
+    "contact": "Contact"
+  }
+} 

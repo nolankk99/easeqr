@@ -1,0 +1,137 @@
+{
+  "common": {
+    "title": "EaseQR",
+    "description": "URL、連絡先、WiFiなどの様々な情報をQRコードに簡単に変換できます。",
+    "subtitle": "ロゴの追加や色のカスタマイズなどで、自分だけのQRコードを作成できます。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "history": "履歴",
+    "about": "紹介"
+  },
+  "generator": {
+    "title": "QRコード生成ツール",
+    "description": "URL、連絡先、WiFiなどの情報をQRコードに変換しましょう",
+    "tabs": {
+      "generate": "生成",
+      "customize": "カスタマイズ"
+    },
+    "dataType": {
+      "url": "URL",
+      "contact": "連絡先",
+      "wifi": "WiFi",
+      "email": "メール",
+      "sms": "SMS",
+      "text": "テキスト"
+    },
+    "placeholder": {
+      "url": "https://example.com",
+      "name": "山田太郎",
+      "phone": "+81 90-1234-5678",
+      "email": "example@example.com",
+      "ssid": "WiFi名",
+      "password": "WiFiパスワード",
+      "subject": "メール件名",
+      "body": "メール本文",
+      "message": "SMSメッセージ内容",
+      "text": "自由テキスト入力"
+    },
+    "labels": {
+      "url": "ウェブサイトURL",
+      "name": "名前",
+      "phone": "電話番号",
+      "email": "メール",
+      "ssid": "ネットワーク名（SSID）",
+      "password": "パスワード",
+      "encryption": "暗号化タイプ",
+      "hiddenNetwork": "非表示ネットワーク",
+      "emailAddress": "メールアドレス",
+      "subject": "件名（任意）",
+      "body": "本文（任意）",
+      "smsNumber": "電話番号",
+      "smsMessage": "メッセージ（任意）",
+      "text": "プレーンテキスト",
+      "qrSize": "QRコードサイズ",
+      "bgColor": "背景色",
+      "fgColor": "QRコード色",
+      "logo": "ロゴ追加",
+      "logoSize": "ロゴサイズ",
+      "preview": "プレビュー",
+      "currentData": "現在のデータ"
+    },
+    "help": {
+      "url": "QRコードをスキャンすると、このURLに直接アクセスします。",
+      "contact": "QRコードをスキャンすると、連絡先が自動的に保存されます。",
+      "wifi": "QRコードをスキャンすると、自動的にWiFiに接続します。",
+      "email": "QRコードをスキャンすると、メール作成画面が開きます。",
+      "sms": "QRコードをスキャンすると、SMS作成画面が開きます。",
+      "text": "QRコードをスキャンすると、入力したテキストが表示されます。"
+    },
+    "buttons": {
+      "clear": "クリア",
+      "upload": "ロゴアップロード",
+      "remove": "削除",
+      "download": "QRコードをダウンロード",
+      "share": "URLを共有",
+      "reset": "リセット"
+    },
+    "preview": {
+      "empty": "データを入力すると、QRコードがここに表示されます",
+      "emptyPreview": "データを入力すると、プレビューが表示されます",
+      "enterDataFirst": "生成タブでデータを入力してください"
+    },
+    "errors": {
+      "fileSize": "ファイルサイズ制限",
+      "fileSizeDesc": "ロゴ画像は2MB以下である必要があります。",
+      "fileType": "非対応ファイル形式",
+      "fileTypeDesc": "画像ファイル（.jpg、.png、.gifなど）のみがアップロード可能です。",
+      "urlRequired": "URLを入力してください",
+      "urlRequiredDesc": "QRコードを生成するにはURLを入力してください",
+      "lowContrast": "QRコードの色コントラストが低すぎます",
+      "lowContrastDesc": "QRコードがスキャンできない可能性があります。色を調整してください。",
+      "downloadFailed": "QRコードのダウンロード失敗",
+      "downloadFailedDesc": "QRコードの生成中にエラーが発生しました",
+      "shareFailed": "URL共有失敗",
+      "shareFailedDesc": "クリップボードへのアクセス権限がないか、エラーが発生しました"
+    },
+    "success": {
+      "logoUploaded": "ロゴアップロード完了",
+      "logoUploadedDesc": "ロゴがQRコードに適用されました。",
+      "logoRemoved": "ロゴ削除完了",
+      "logoRemovedDesc": "ロゴがQRコードから削除されました。",
+      "settingsReset": "設定リセット",
+      "settingsResetDesc": "QRコードの設定がデフォルトにリセットされました",
+      "urlCopied": "URLがクリップボードにコピーされました"
+    },
+    "warnings": {
+      "lowContrast": "注意：QRコードのコントラストが低く、一部のスキャナーで認識が難しい場合があります。",
+      "veryLowContrast": "重要：QRコードのコントラストが非常に低く、スキャンできない可能性があります！"
+    },
+    "encryption": {
+      "wpa": "WPA/WPA2",
+      "wep": "WEP",
+      "nopass": "暗号化なし"
+    }
+  },
+  "history": {
+    "title": "履歴",
+    "empty": "まだQRコードが生成されていません。QRコードを生成、ダウンロード、または共有すると、ここに表示されます。",
+    "clear": "すべてクリア",
+    "confirm": "本当にすべての履歴をクリアしますか？"
+  },
+  "about": {
+    "title": "QRコードについて",
+    "content": "QRコード（Quick Response code）は情報を保存できる二次元のマトリックスバーコードです。1994年に日本のデンソーウェーブ社によって開発され、今日さまざまな分野で活用されています。URL、連絡先情報、WiFi情報など、様々なデータを保存することができます。",
+    "appDescription": "EaseQRはURLをQRコードに変換する簡単なツールです。生成されたQRコードはスマートフォンのカメラでスキャンしてウェブサイトに直接アクセスでき、名刺、ポスター、製品パッケージなどさまざまな用途に活用できます。"
+  },
+  "footer": {
+    "copyright": "© 2025 EaseQR. すべての権利を保有。"
+  },
+  "lang": {
+    "ko": "韓国語",
+    "en": "英語",
+    "ja": "日本語",
+    "zh": "中国語",
+    "es": "スペイン語"
+  }
+} 

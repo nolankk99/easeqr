@@ -1,0 +1,27 @@
+{
+  "name": "EaseQR - 편리한 QR 코드 생성기",
+  "short_name": "EaseQR",
+  "description": "URL, 연락처, WiFi 등 다양한 정보를 담은 QR 코드를 쉽게 생성하고 공유하세요.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0284c7",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+} 
